@@ -12,7 +12,7 @@ slide: false
 ignorePublish: false
 ---
 いつも設定やり方を忘れてしまうため自分用に手順書作成しました。
-[こちら](https://qiita.com/yampy/items/24638156abd383e08758)の記事を参考にしています。(いつもお世話になってます)
+[こちら](https://qiita.com/yampy/items/24638156abd383e08758)の記事を参考にしています。
 Business, Privateで使い分ける際に使用してます。
 
 # 1. ssh key作成
@@ -53,7 +53,7 @@ Host github.com.{sub account}
   IdentitiesOnly yes
 ```
 # 3. Githubに公開鍵(.pubがついてる方)を登録する
-- [こちら](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)の記事を参照のこと(いつもお世話になってます)
+- [こちら](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)の記事を参照のこと
 - クリップボードへのコピーは以下を利用(Mac用)
 - 下記はMac用。windowsの場合は`clip < ~/.ssh/{key-name created above}.pub`
 

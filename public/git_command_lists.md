@@ -29,7 +29,9 @@ git remote set-url --add origin {New git repository url}
 ```bash: remote branchを元にlocal branchを作成
 git checkout -b local_branch_name origin/remote_branch_name
 ```
-
+```bash: 削除済みでlocalに残っているremote branchを削除
+git fetch --prune
+```
 # Add関連
 - HEAD(直前のコミット)まで`git add`の変更履歴を取り消す
 
